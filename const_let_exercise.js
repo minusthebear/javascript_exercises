@@ -60,6 +60,8 @@
 
 	function changeHumanAsParameter(x){
 		x["face"] = "ugly";
+		x["hair"] = "blond";
+		// Note: hair property doesn't change!
 		console.log("Human value within changeHumanAsParameter(x): hair - " + human.hair + ", face - " + human.face + ", hands - " +  human.hands);
 	}
 
